@@ -1,0 +1,108 @@
+.footer_section{
+    background-image: url(../../assets/images/Vector\ 14.png);
+    height:100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 5px 0px;
+}
+.email_form{
+    display: flex;
+    padding-top: 180px;
+    justify-content: flex-end;
+}
+.email_form input{
+    height: 38px;
+    width: 280px;
+    padding-left: 20px;
+}
+.subscribe_button{
+    height: 38px;
+    width: 150px;
+    background-color:#FF9900;
+    border: 1px solid #FF9900;
+}
+.footer_content {
+    padding: 20px 0px;
+}
+.footer_content h5{
+    padding: 30px 0px 20px 0px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    color: #FF9900;
+}
+.footer_content p{
+    margin: 0px 0px 8px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.instagram{
+    margin-left: 58px;
+    padding: 0px 30px;
+}
+.twitter{
+    margin-left: 30px;
+    padding: 0px 30px;
+}
+.youtube{
+    margin-left: 40px;
+    padding: 0px 30px;
+}
+.footer_last{
+    padding: 20px 0px 0px 0px;
+    border-top: 1px solid #ffffff;
+}
+.footer_last p{
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    color: #ffffff;
+}
+.footer_about{
+    text-align: center;
+}
+.footer_social{
+    text-align: right;
+}
+.social_icon{
+    text-align: center;
+}
+.facebook{
+    padding: 0px 30px;
+    margin-left: 50px;
+}
+
+@media only screen and ( max-width:600px ) {
+    .footer_about{
+        text-align: unset;
+    }
+    .footer_social{
+        text-align: unset;
+    }
+    .social_icon{
+        text-align: unset;
+    }
+    .facebook{
+        padding: 0px 10px 0px 0px;
+        margin-left: 0px;
+    }
+    .instagram{
+        padding: 0px 10px 0px 0px;
+        margin-left: 0px;
+    }
+    .twitter{
+        padding: 0px 10px 0px 0px;
+        margin-left: 0px;
+    }
+    .youtube{
+        padding: 0px 10px 0px 0px;
+        margin-left: 0px;
+    }
+    
+}

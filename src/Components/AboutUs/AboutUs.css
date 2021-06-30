@@ -1,0 +1,109 @@
+.about_background{
+    background-image: url(../../assets/images/Subtract.png);
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about_section{
+    padding: 40px 0px 0px 0px;
+     background: #2F2F2F;
+}
+.about_text h5{
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    color: #fff;
+    position: relative;
+}
+
+.about_line::after{
+    content: "";
+    display: block;
+    width: 900px;
+    height: 3px;
+    background:#FF9900;
+    position: absolute;
+    top: 80%;
+    left: 16%;
+}
+.right_arrow{
+    position: absolute;
+    right: 1%;
+    top: 70%;
+    color: #FF9900;
+    font-size: 22px;
+}
+.about_img img{
+    margin-top: 40px;
+    width: 680px;
+    height: 350.81px;
+}
+
+/* About Details section */
+
+.about_details_background{
+    background-image: url(../../assets/images/Vector\ 5.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:#262729;  
+}
+.about_details_text h3{
+    color: #fff;
+    padding-top: 60px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+}
+.about_details_text p{
+    color: #fff;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+}
+.about_question{
+    margin: 60px 0px 60px 0px;
+    padding: 0px 60px;
+}
+.about_question h5{
+    color:#FF9900;;
+    padding-bottom: 10px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+}
+.about_question p{
+    color: #fff;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size:16px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px){
+    .about_line::after{
+       width: 160px;
+       left: 48%;
+    }
+    .about_img img{
+        width: 300px;
+    }
+    .about_details_background{
+        height: 100%;
+    }
+    .about_background{
+        height: 100%;
+        padding: 40px 0px;
+    }
+    .about_details_background{
+        height: 100%;
+        padding: 60px 0px;
+    }
+    
+}

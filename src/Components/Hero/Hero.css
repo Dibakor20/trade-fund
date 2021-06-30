@@ -1,0 +1,144 @@
+.hero_banner{
+    color: #fff;
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    height: 700px;
+}
+.hero_text h5{
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+}
+.hero_text h3{
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 59px;
+}
+.hero_text p{
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+}
+.hero_button_one{
+    width: 200px;
+    height: 60px;
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+.hero_button_two{
+    color: #FF9900;
+    width: 200px;
+    height: 60px;
+    background: rgba(0, 0, 0, 0.01);
+    border: 2px solid #FF9900;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.circle_image{
+    width: 308px;
+    height: 308px;
+    background: #FF9900;
+    border-radius: 50%;
+    
+}
+.hero_image{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 600px;
+}
+/* .hero_img_one{
+    position: absolute;
+    
+   
+} */
+
+
+
+.experience__img {
+    position: relative;
+    padding-bottom: 2rem;
+  }
+  
+  .experience__img-one, 
+  .experience__img-two {
+    transition: var(--img-transition);
+  }
+  
+  .experience__img-one:hover, 
+  .experience__img-two:hover {
+    transform: var(--img-scale);
+  }
+  
+  .experience__overlay {
+    overflow: var(--img-hidden);
+  }
+  
+  .experience__overlay:nth-child(1) {
+    width: 450px;
+    height: 400px;
+    
+  }
+  
+  .experience__overlay:nth-child(2) {
+    width: 250px;
+    height: 420px;
+    position: absolute;
+    top: 19rem;
+    right: 10rem;
+  }
+
+  .experience__overlay:nth-child(3) {
+    width: 250px;
+    height: 420px;
+    position: absolute;
+    top: 5.5rem;
+    left: 16rem;
+  }
+  .experience__overlay:nth-child(4) {
+    width: 250px;
+    height: 420px;
+    position: absolute;
+    top: 14rem;
+    left: 16rem;
+  }
+
+
+
+
+  @media only screen and (max-width: 600px){
+    .hero_text h5{
+      font-size: 20px;
+    }
+    .hero_text h3{
+      font-size: 30px;
+    }
+    .hero_text p{
+      font-size: 16px;
+    }
+    .hero_banner{
+      height: 500px;
+    }
+    .experience__overlay:nth-child(2){
+        width: 130px;
+    }
+    .experience__overlay:nth-child(3){
+      width: 130px;
+  }
+  .experience__overlay:nth-child(4){
+    width: 130px;
+ }
+ .hero_text{
+   text-align: center;
+ }
+ .hero_banner{
+   height: 400px;
+ }
+ .hero_image{
+  
+ }
+}

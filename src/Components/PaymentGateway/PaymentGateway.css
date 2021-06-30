@@ -1,0 +1,23 @@
+.payment_gateway{
+    padding: 60px 0px 0px 0px;
+}
+.payment_gateway_text h3{
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    color: #2F2F2F;
+}
+
+.Slider_Container{
+   text-align: center;
+    
+  }
+.Slider_Content{
+  margin-bottom: 50px;
+
+  }
+  .Slider_Content img{
+    width: 152px !important;
+    height: 86px !important;
+  }

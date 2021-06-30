@@ -1,0 +1,88 @@
+.choose_us_section{
+    padding: 120px 0px 60px 0px;
+    background-color:#262729;
+}
+.choose_us_background{
+    background-image: url(../../assets/images/Vector\ 71.png);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:#262729;  
+}
+.choose_us_text{
+    padding-top: 100px;
+}
+.choose_us_text h5{
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    color: #fff;
+    position: relative;
+}
+
+.choose_us_line::after{
+    content: "";
+    display: block;
+    width: 600px;
+    height: 3px;
+    background:#fff;
+    position: absolute;
+    top: 60%;
+    left: 28%;
+}
+.choose_us_right_arrow{
+    position: absolute;
+    right: 16%;
+    top: 40%;
+    color: #fff;
+    font-size: 22px;
+}
+
+.chooser-us-feature{
+    margin-top: 60px;
+}
+.service-1{
+    text-align: center;
+    padding: 0px 60px;
+    margin-bottom: 60px;
+}
+.service-1 h3{
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    color: #FF9900;
+    margin-bottom: 20px;
+}
+.service-1 p{
+    color: #ffffff;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+}
+.service-1 i{
+    color: #fff;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+
+@media only screen and (max-width: 600px){
+    .choose_us_line::after{
+       width: 180px;
+       top: 140%;
+    }
+    .choose_us_right_arrow{
+       right: 16%;
+       top: 120%;
+    }
+    .choose_us_text h5{
+        text-align: center;
+    }
+    .choose_us_background{
+        padding: 100px 0px 100px 0px;
+    }
+   
+}

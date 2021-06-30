@@ -1,0 +1,49 @@
+.service_background{
+    background-image: url(../../assets/images/Subtract.png);
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.service_section{
+    padding: 80px 0px 0px 0px;
+     background: #262729;
+}
+.service_text h5{
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    color: #fff;
+    position: relative;
+}
+
+.service_line::after{
+    content: "";
+    display: block;
+    width: 900px;
+    height: 3px;
+    background:#FF9900;
+    position: absolute;
+    top: 80%;
+    left: 16%;
+}
+.right_arrow{
+    position: absolute;
+    right: 1%;
+    top: 70%;
+    color: #FF9900;
+    font-size: 22px;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 600px){
+    .service_line::after{
+       width: 160px;
+       left: 48%;
+    }
+    
+}

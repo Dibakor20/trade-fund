@@ -1,0 +1,65 @@
+.Happy_client{
+    padding: 60px 0px 60px 0px;
+    background-color:#262729;
+}
+.success_text h3{
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    color: #ffffff;
+}
+.success_text h1{
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    color: #FF9900;
+}
+.success_background{
+    background-image: url(../../assets/images/Rectangle\ 705.png);
+    height:100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.success_story{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 60px;
+}
+.success_count{
+    text-align: center;
+}
+.success_count h5{
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    color: #fff;
+}
+.success_count p{
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #ffffff;
+    border-right: 1px solid #868686;
+    padding: 0px 10px;
+    height: 50px;
+    
+}
+
+
+@media only screen and (max-width: 600px){
+    .success_story{
+        display: block;
+    }
+    .success_count{
+        padding-bottom: 30px;
+    }
+    .success_count p{
+        border-right: unset;
+        border-bottom: 1px solid #868686;
+        padding-bottom:120px;
+    }
+}   

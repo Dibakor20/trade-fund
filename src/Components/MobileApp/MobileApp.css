@@ -7,6 +7,7 @@
     height: 70vh;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
 }
 .app_text h5{
     font-family: Mulish;
@@ -39,6 +40,12 @@
     color: #fff;
 }
 
+
+.app_image{
+    position: absolute;
+    left: 0;
+    top: 30%;
+}
 
 @media only screen and (max-width: 600px){
     .get_app_text{

@@ -1,12 +1,14 @@
 import React from 'react';
 import './AboutUs.css';
 import about_img from '../../assets/images/Mask Group.png'
+import about_img2 from '../../assets/images/Group.png'
 
 const AboutUs = () => {
     return (
         <>
             <div className="about_section">
                 <div className="about_background">
+                    <img src={about_img2} alt="" className="about_img_two"/>
                 <div className="about_text container">
                     <h5 className="about_line">Get an idea<br/> <span style={{color:"#FF9900"}}>About Us</span><i class="fas fa-chevron-double-right right_arrow"></i></h5>  
                 </div>
@@ -18,6 +20,7 @@ const AboutUs = () => {
 
             <div className="about_details">
                 <div className="about_details_background">
+                
                     <div className="about_details_text text-center ">
                         <h3>What is <br/>
                                <span style={{color:"#FF9900"}}> Funded Trader Program?</span></h3>

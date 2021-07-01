@@ -5,6 +5,7 @@ import Navbar from '../Navbar/Navbar';
 import Hero from '../Hero/Hero';
 import AboutUs from '../AboutUs/AboutUs';
 import Services from '../Services/Services';
+import Pricing from '../Pricing/Pricing';
 import MobileApp from '../MobileApp/MobileApp';
 import ChooseUs from '../ChooseUs/ChooseUs';
 import SuccessStory from '../SuccessStory/SuccessStory';
@@ -21,6 +22,7 @@ const HomePage = () => {
          </div>
          <AboutUs/>
          <Services/>
+         <Pricing/>
          <MobileApp/>
          <ChooseUs/>
          <SuccessStory/>

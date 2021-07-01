@@ -80,7 +80,7 @@
   
   .experience__overlay:nth-child(1) {
     width: 450px;
-    height: 400px;
+    height: 350px;
     
   }
   
@@ -105,6 +105,21 @@
     position: absolute;
     top: 14rem;
     left: 16rem;
+  }
+
+
+
+  .hero_images{
+    position: relative;
+
+  }
+  .hero_img_two{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin:auto;
   }
 
 

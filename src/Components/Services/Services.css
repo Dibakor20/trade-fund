@@ -3,6 +3,7 @@
     height: 90vh;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
 }
 .service_section{
     padding: 80px 0px 0px 0px;
@@ -34,7 +35,53 @@
     color: #FF9900;
     font-size: 22px;
 }
+.step_1{
+    margin-top: 350px;
+    background: #FF9900;
+    border-radius: 5px;
+    height: 81px;
+   
+}
+.step_2{
+    margin-top: 300px;
+    background: red;
+    border-radius: 5px;
+    height: 81px;
+ 
+}
+.step_3{
+    margin-top: 250px;
+  
+}
+.step_4{
+    margin-top: 200px;
+    
+}
+.step_5{
+    margin-top: 150px;
+    
+}
+.step_6{
+    margin-top: 100px;
+    
+}
+.step_7{
+    margin-top: 50px;
+    
+}
 
+.service_one{
+   
+    background-color: #555454;
+    
+    
+}
+
+.service_img{
+    position: absolute;
+    right: 0;
+    top: 30%;
+}
 
 
 

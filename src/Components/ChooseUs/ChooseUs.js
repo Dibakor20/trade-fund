@@ -1,11 +1,13 @@
 import React from 'react';
 import './ChooseUs.css'
+import  chooseImg from '../../assets/images/Group 9575.png'
 
 const ChooseUs = () => {
     return (
         <>
             <div className="choose_us_section">
                 <div className="choose_us_background">
+                  <img src={chooseImg} alt="" className="choose_img" />
                     <div className="container">
                     <div className="choose_us_text">
                     <h5 className="choose_us_line">Why <span style={{color:"#FF9900"}}>Choose</span> Us?<i class="fas fa-chevron-double-right choose_us_right_arrow"></i></h5>  

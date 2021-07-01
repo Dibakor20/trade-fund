@@ -2,12 +2,14 @@ import React from 'react';
 import './MobileApp.css'
 import appStore from '../../assets/images/apps.jpg'
 import playStore from '../../assets/images/play-store.jpg'
+import app_img from '../../assets/images/Group (1).png'
 
 const MobileApp = () => {
     return (
         <>
             <div className="mobile_app_section">
                 <div className="mobile_app_background">
+                    <img src={app_img} alt="" className="app_image" />
                     <div className="app_text text-center">
                     <h5 className="pt-5">Download Our <span style={{color:"#FF9900"}}>Mobile App</span></h5>
                     </div>

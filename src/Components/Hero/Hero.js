@@ -4,6 +4,7 @@ import heroImg1 from '../../assets/images/Paid dashboard.png'
 import heroImg2 from '../../assets/images/image 6.png'
 import heroImg3 from '../../assets/images/image 7.png'
 import heroImg4 from '../../assets/images/image 8.png'
+import heroImg5 from '../../assets/images/Ellipse 133.png'
 
 
 
@@ -12,7 +13,7 @@ const Hero = () => {
         <>
             <div className="hero_section">
                 <div className="container">
-                    <div className="row">
+                    <div className="row align-items-center">
                         <div className="col-lg-7 col-sm-12">
                             <div className="hero_banner">
                                 <div className="hero_text">
@@ -34,8 +35,11 @@ const Hero = () => {
 
 
                        <div className="experience__img grid mt-5">
-                        <div className="experience__overlay text-center">
-                            <img src={heroImg1} alt="" className="experience__img-one"/>
+                        <div className="experience__overlay hero_images text-center">
+                        
+                            <img src={heroImg5} alt="" className="experience__img-two"/>
+                      
+                            <img src={heroImg1} alt="" className="experience__img-one hero_img_two"/>
                         </div>
                         
                         <div className="experience__overlay">
@@ -49,6 +53,7 @@ const Hero = () => {
                         <div className="experience__overlay">
                             <img src={heroImg4} alt="" className="experience__img-two"/>
                         </div>
+                       
                     </div>
 
 

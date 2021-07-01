@@ -39,39 +39,50 @@
     margin-top: 350px;
     background: #FF9900;
     border-radius: 5px;
-    height: 81px;
+    height: 114px;
    
 }
 .step_2{
     margin-top: 300px;
     background: red;
     border-radius: 5px;
-    height: 81px;
+    height:114px;
  
 }
 .step_3{
     margin-top: 250px;
-  
+    background: #FF9900;
+    border-radius: 5px;
+    height:114px;
 }
 .step_4{
     margin-top: 200px;
-    
+    background: red;
+    border-radius: 5px;
+    height: 114px;
 }
 .step_5{
     margin-top: 150px;
-    
+    background: #FF9900;
+    border-radius: 5px;
+    height: 114px;
 }
 .step_6{
     margin-top: 100px;
-    
+    background: red;
+    border-radius: 5px;
+    height: 114px;
 }
 .step_7{
     margin-top: 50px;
+    background: #FF9900;
+    border-radius: 5px;
+    height: 114px;
     
 }
 
 .service_one{
-   
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
     background-color: #555454;
     
     

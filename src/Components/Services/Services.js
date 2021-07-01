@@ -61,7 +61,7 @@ const Services = () => {
 
                        </div>
                        <div className="step_5">
-
+                      
                        <div className="row">
                                 <div className="col-lg-2 service_one">
                                     01
@@ -85,7 +85,7 @@ const Services = () => {
 
                        </div>
                        <div className="step_7">
-                     
+
                        <div className="row">
                                 <div className="col-lg-2 service_one">
                                     01
@@ -96,7 +96,7 @@ const Services = () => {
                            </div>
 
                        </div>
-                       
+                      
                    </div>
                    </div>
                 </div>    

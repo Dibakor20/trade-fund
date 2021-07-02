@@ -13,13 +13,13 @@
     font-family: Mulish;
     font-style: normal;
     font-weight: 800;
-    font-size: 36px;
+    font-size: 28px;
     color: #fff;
     position: relative;
 }
 .app_images img{
     width: 200px;
-    height: 60px;
+    height: 50px;
     border-radius: 5px;
 }
 .app_store{
@@ -34,7 +34,7 @@
 .get_app_text h5{
     color: #fff;
     font-family: Mulish;
-    font-size: 28px;
+    font-size: 24px;
 }
 .get_app_text p{
     color: #fff;

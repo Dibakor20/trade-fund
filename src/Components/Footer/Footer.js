@@ -13,19 +13,19 @@ const Footer = () => {
 
                     <div className="footer_content">
                         <div className="row ">
-                            <div className="col-lg-4 ">
+                            <div className="col-lg-4 col-md-4 ">
                                 <h5>Contact</h5>
                                 <p>Kawranbazar,<br/> Dhaka<br/> Bangladesh</p>
                                 <p>info@fundednext.com </p>
                             </div>
-                            <div className="col-lg-4  footer_about">
+                            <div className="col-lg-4 col-md-4  footer_about">
                                 <h5>Learn about FundedNext</h5>
                                 <p>About </p>
                                 <p>Our Products</p>
                                 <p>FAQs</p>
                                 <p>Privacy </p>
                             </div>
-                            <div className="col-lg-4">
+                            <div className="col-lg-4 col-md-4">
                                 <h5 className="footer_social">Get updates from </h5>
                                  <div className="social_icon">
                                      <p><i class="fab fa-facebook-square facebook"></i>Facebook</p>

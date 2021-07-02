@@ -6,14 +6,14 @@
     font-family: Mulish;
     font-style: normal;
     font-weight: 800;
-    font-size: 30px;
+    font-size: 26px;
     color: #ffffff;
 }
 .success_text h1{
     font-family: Mulish;
     font-style: normal;
     font-weight: 800;
-    font-size: 40px;
+    font-size: 32px;
     color: #FF9900;
 }
 .success_background{
@@ -34,14 +34,15 @@
     font-family: Mulish;
     font-style: normal;
     font-weight: 800;
-    font-size: 24px;
+    font-size: 22px;
     color: #fff;
+    padding-bottom: 10px;
 }
 .success_count p{
     font-family: Mulish;
     font-style: normal;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 14px;
     color: #ffffff;
     border-right: 1px solid #868686;
     padding: 0px 10px;
@@ -63,3 +64,10 @@
         padding-bottom:120px;
     }
 }   
+
+
+@media (min-width: 768px) and (max-width: 1024px){
+    .success_count p{
+        font-size: 10px;
+    }
+}

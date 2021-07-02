@@ -4,6 +4,7 @@ import appStore from '../../assets/images/apps.jpg'
 import playStore from '../../assets/images/play-store.jpg'
 import app_img from '../../assets/images/Group (1).png'
 
+
 const MobileApp = () => {
     return (
         <>
@@ -16,14 +17,14 @@ const MobileApp = () => {
                     <div className="container">
                     <div className="row ">
                         <div className="col-lg-6 col-sm-12">
-
+                           
                         </div>
                         <div className="col-lg-6 col-sm-12">
                             <div className="get_app">
                                 <div className="get_app_text">
                                     <h5>Get The App</h5>
-                                    <p>Available On</p>
-                                    <div className="app_images">
+                                    <p className="mt-2">Available On</p>
+                                    <div className="app_images mt-3">
                                     <img src={appStore} alt="" className="app_store" />
                                     <img src={playStore} alt="" />
                                     </div>

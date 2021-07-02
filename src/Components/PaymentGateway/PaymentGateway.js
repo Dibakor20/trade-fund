@@ -1,10 +1,10 @@
 import React from 'react';
 import './PaymentGateway.css'
 import sliderImage1 from '../../assets/images/download (3).png';
-import sliderImage2 from '../../assets/images/skrill_logo 1.png';
+import sliderImage2 from '../../assets/images/sk.png';
 import sliderImage3 from '../../assets/images/payoneer-vector-logo-small 1.png';
-import sliderImage4 from '../../assets/images/goodbit-fixed_4x 1.png';
-import sliderImage5 from '../../assets/images/800x600-coolpay-logo-full-light 1.png';
+import sliderImage4 from '../../assets/images/goodbit_4x.png';
+import sliderImage5 from '../../assets/images/cool.png';
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper.min.css";

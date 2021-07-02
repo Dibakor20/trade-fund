@@ -1,14 +1,20 @@
+* p{
+    margin: 0px 0px 0px;
+}
+h5{
+    margin: 0px 0px 0px;
+}
 .pricing_section{
-    padding: 60px 0px 420px 0px ;
     background-color: #262729;
     position: relative;
+    height:140vh;
 }
 .pricing_text h3{
     text-align: center;
     font-family: Mulish;
     font-style: normal;
     font-weight: 800;
-    font-size: 36px;
+    font-size: 28px;
     color: #fff;
 }
 
@@ -19,7 +25,7 @@
     height: 3px;
     background:#FF9900;
     position: absolute;
-    top: 4%;
+    top: 1%;
    right: 10%;
 }
 .pricing_line::before{
@@ -29,27 +35,27 @@
     height: 3px;
     background:#FF9900;
     position: absolute;
-    top: 4%;
+    top: 1%;
     left: 10%;
 }
 .pricing_right_arrow{
     position: absolute;
     right: 8%;
-    top: 3%;
+    top: 0;
     color: #FF9900;
     font-size: 22px;
 }
 .pricing_left_arrow{
     position: absolute;
     left: 8%;
-    top: 3%;
+    top: 0;
     color: #FF9900;
     font-size: 22px;
 }
 .pricing_circle{
     position: absolute;
     right: 30%;
-    top: 3%;
+    top:0%;
     color: #FF9900;
     font-size: 22px;
 }
@@ -58,6 +64,7 @@
     background-position: center;
     background-size: cover;
     height: 40vh;
+    background-repeat: no-repeat;
     
 }
 
@@ -75,32 +82,40 @@
 }
 .card{
     border-radius: 12px;
+    height: 570px;
 }
 
 .pricing_card_img{
     width: 40px;
     height: 40px;
 }
-
+.card-header{
+    height: 150px;
+}
 
 .header_pricing{
     background-color:#414141;
     padding: 20px 0px;
     
 }
+.pricing_body-middle-card{
+    background-color:#655B5B;
+}
+
 .pricing_body{
     background-color:#655B5B;
-    ;
+    border-radius:0px 0px 12px 12px;
+    margin-bottom: -20px;
+    
     
 }
 .pricing_one{
     border: 3px solid #ffffff;
     text-align: center;
     border-radius:10px;
+    padding-bottom: 10px;
 }
-.pricing_two ul li{
-   color:#FF9900;
-}
+
 .pricing_button{
     background: rgba(196, 196, 196, 0.01);
     border: 1.5px solid #FFFFFF;
@@ -117,9 +132,87 @@
 .pricing_footer{
     background: #FF9900;
     border-radius: 12px;
-    padding: 5px 0px;
+    padding: 10px 0px;
 }
 
+
+
+.first_card p{
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+}
+.first_card h6{
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 600;
+    font-size:22px;
+}
+.first_card h3{
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+}
+
+.pricing_one p{
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    padding-top: 10px;
+}
+.pricing_one h5{
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    color: #FF9900;
+}
+.pricing_one span{
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 11px; 
+}
+.pricing_two ul li{
+    color:#FF9900;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    padding: 5px 0px;
+ }
+.pricing_range ul li{
+    color:#00A160;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    padding: 5px 0px;
+}
+.pricing_range2 ul li{
+    color:#ffffff;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    padding: 5px 0px;
+}
+ .pricing_three p{
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+ }
+ .pricing_three span{
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+ }
+ 
 
 
 
@@ -128,9 +221,67 @@
     .pricing_line::after{
         width: 50px;
         left: 72%;
+        top: 7px;
      }
      .pricing_line::before{
-        width: 170px;
-        right: 45%;
+        width: 150px;
+        left: 18%;
+        top: 7px;
+     }
+     .pricing_background{
+         height: 100%;
+     }
+     .pricing_section{
+         height: 360vh;
+     }
+     .pricing_background{
+        background: none;
+     }
+     .pricing_range2 ul li{
+         font-size: 12px;
+     }
+     .pricing_card_img{
+         display: none;
      }
 }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+    .pricing_line::after{
+        width: 125px;
+        left: 72%;
+        top: 7px;
+     }
+     .pricing_line::before{
+        width: 390px;
+        right: 45%;
+        top: 7px;
+     }
+     .pricing_section{
+        height: 90vh;
+    }
+    .pricing_card1{
+        margin-top: 120px;
+        padding: 0px 10px;
+    }
+    .pricing_card2{
+        margin-top: 70px;
+        padding: 0px 10px;
+    }
+    .pricing_card3{
+        margin-top: 120px;
+        padding: 0px 10px;
+    }
+    .pricing_card_img{
+        display: none;
+    }
+    .pricing_range ul li{
+        font-size: 8px;
+    }
+    .pricing_two ul li{
+        font-size: 8px;
+    }
+    .pricing_range2 ul li{
+        font-size: 8px;
+    }
+  }

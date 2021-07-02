@@ -30,7 +30,7 @@ const SuccessStory = () => {
                                 <p>Experts Traders<br/> in a team</p>
                             </div>
                             <div className="success_count">
-                                <h5>180</h5>
+                                <h5>4.7</h5>
                                 <p>Trustpilot “Trustscore”<br/> Rating(Excellent)</p>
                             </div>
                         </div>

@@ -34,6 +34,11 @@ const Navbar = () => {
                   </nav>
             </div>
             </div>
+
+            <div className="user_info">
+            <i class="fal fa-user"></i><br/>
+            <p>User Panel</p>
+            </div>
         </>
     );
 };

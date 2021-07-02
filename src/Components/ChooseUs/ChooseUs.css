@@ -17,7 +17,7 @@
     font-family: Mulish;
     font-style: normal;
     font-weight: 800;
-    font-size: 36px;
+    font-size: 28px;
     color: #fff;
     position: relative;
 }
@@ -52,7 +52,7 @@
     font-family: Mulish;
     font-style: normal;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 22px;
     color: #FF9900;
     margin-bottom: 20px;
 }
@@ -61,7 +61,8 @@
     font-family: Mulish;
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
+    font-size: 14px;
+    text-align: left;
 }
 .service-1 i{
     color: #fff;
@@ -93,3 +94,23 @@
     }
    
 }
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    
+    .choose_us_line::after{
+        width: 360px;
+        top: 140%;
+     }
+     .choose_us_right_arrow{
+        right: 16%;
+        top: 120%;
+     }
+     .choose_us_text h5{
+         text-align: center;
+     }
+     .choose_us_background{
+         padding: 100px 0px 100px 0px;
+     }
+    
+  }

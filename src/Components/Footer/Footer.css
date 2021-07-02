@@ -30,7 +30,7 @@
     font-family: Mulish;
     font-style: normal;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 22px;
     color: #FF9900;
 }
 .footer_content p{
@@ -38,7 +38,7 @@
     font-family: Mulish;
     font-style: normal;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 14px;
     color: #FFFFFF;
 }
 .instagram{
@@ -46,11 +46,11 @@
     padding: 0px 30px;
 }
 .twitter{
-    margin-left: 30px;
+    margin-left: 33px;
     padding: 0px 30px;
 }
 .youtube{
-    margin-left: 40px;
+    margin-left: 42px;
     padding: 0px 30px;
 }
 .footer_last{
@@ -64,14 +64,11 @@
     font-size: 13px;
     color: #ffffff;
 }
-.footer_about{
-    text-align: center;
-}
 .footer_social{
-    text-align: right;
+    text-align:right;
 }
 .social_icon{
-    text-align: center;
+    text-align:center;
 }
 .facebook{
     padding: 0px 30px;
